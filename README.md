@@ -93,7 +93,7 @@ plastic-1dcnn-spectral/
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 
