@@ -60,6 +60,7 @@ DOI: https://doi.org/10.5281/zenodo.14233290
 ---
 
 ## Project Structure
+'''
 plastic-1dcnn-spectral/
 │
 ├── README.md
@@ -84,7 +85,7 @@ plastic-1dcnn-spectral/
 └── results/
     ├── plots/
     └── metrics.txt
-
+'''
 
 ---
 
