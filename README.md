@@ -67,23 +67,23 @@ plastic-1dcnn-spectral/
 ├── .gitignore
 │
 ├── data/
-│ ├── raw/
-│ ├── processed/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
 │
 ├── src/
-│ ├── preprocess.py
-│ ├── model.py
-│ ├── train.py
-│ ├── evaluate.py
-│ └── utils.py
+│   ├── preprocess.py
+│   ├── model.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── utils.py
 │
 ├── models/
 │
 └── results/
-├── plots/
-└── metrics.txt
+    ├── plots/
+    └── metrics.txt
 
 
 ---
