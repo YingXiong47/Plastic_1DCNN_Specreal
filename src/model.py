@@ -22,10 +22,8 @@ class Spectral1DCNN(nn.Module):
             kernel_size=9,
             padding=4
         )
-
         self.bn2 = nn.BatchNorm1d(32)
         self.pool2 = nn.MaxPool1d(kernel_size=2)
-
         self.dropout = nn.Dropout(0.20)
 
         self.conv3 = nn.Conv1d(
