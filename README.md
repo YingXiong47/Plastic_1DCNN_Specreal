@@ -60,6 +60,7 @@ DOI: https://doi.org/10.5281/zenodo.14233290
 ---
 
 ## Project Structure
+```
 plastic-1dcnn-spectral/
 │
 ├── README.md
@@ -67,24 +68,24 @@ plastic-1dcnn-spectral/
 ├── .gitignore
 │
 ├── data/
-│ ├── raw/
-│ ├── processed/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
 │
 ├── src/
-│ ├── preprocess.py
-│ ├── model.py
-│ ├── train.py
-│ ├── evaluate.py
-│ └── utils.py
+│   ├── preprocess.py
+│   ├── model.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── utils.py
 │
 ├── models/
 │
 └── results/
-├── plots/
-└── metrics.txt
-
+    ├── plots/
+    └── metrics.txt
+```
 
 ---
 
@@ -92,7 +93,7 @@ plastic-1dcnn-spectral/
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 
@@ -149,5 +150,6 @@ This repository: research / educational use
 
 
 ## Contact
+```
 Name: Ismail Muhammad 
 Email: izzymuhammad3@outlook.com
